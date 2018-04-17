@@ -31,6 +31,7 @@ Retry the SQL connection or establish it again, depending on the following:
 * **A transient error occurs during a SQL query command**: Do not immediately retry the command. Instead, after a delay, freshly establish the connection. Then retry the command.
 
 
+
 <a id="j-retry-logic-transient-faults" name="j-retry-logic-transient-faults"></a>
 
 ## Retry logic for transient errors
